@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+# vs precompiled & intellisense
+*.sdf
+*.ipch
