@@ -77,12 +77,18 @@
     <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="APIHelper.h" />
+    <ClInclude Include="BotLogic.h" />
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="EzAnder.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="APIHelper.cpp" />
+    <ClCompile Include="BotLogic.cpp" />
+    <ClCompile Include="Constants.cpp" />
     <ClCompile Include="EzAnder.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
