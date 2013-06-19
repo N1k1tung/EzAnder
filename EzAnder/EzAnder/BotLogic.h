@@ -6,7 +6,12 @@ class BotLogic
 
 	// logic states
 	typedef enum BotLogicState {
-
+		BLSIdling,
+		BLSMoving,
+		BLSAttacking,
+		BLSSearching,
+		BLSChangingZone,
+		BLSCount
 	};
 
 	BotLogicState _currentState;

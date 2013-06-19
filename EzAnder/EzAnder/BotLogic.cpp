@@ -19,3 +19,33 @@ BotLogic::BotLogic(void)
 BotLogic::~BotLogic(void)
 {
 }
+
+
+void BotLogic::pause()
+{
+
+}
+
+void BotLogic::stop()
+{
+
+}
+
+void BotLogic::runMain() 
+{
+	switch (_currentState)
+	{
+	case BLSIdling:
+		break;
+	case BLSMoving:
+		break;
+	case BLSAttacking:
+		break;
+	case BLSChangingZone:
+		break;	
+	}
+
+}
+
+
+
